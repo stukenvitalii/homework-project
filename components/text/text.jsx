@@ -1,10 +1,10 @@
-import react from "react"
-import css from "./text.module.css"
+import react from "react";
+import css from "./text.module.css";
 
-export const Text = ({children}) => {
-    return (
-        <p type="text" className={css.text}>
-            {children}
-        </p>
-    );
+export const Text = ({ children }) => {
+  return (
+    <p type="text" className={css.text}>
+      {children}
+    </p>
+  );
 };

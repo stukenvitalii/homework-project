@@ -1,8 +1,11 @@
-import {Text} from "/components/text/text"
- 
+import { Text } from "/components/text/text";
+
 export default function LoginPage() {
-    return(
-        <main>
-            <Text>Привет!</Text>
-        </main>
-)};
+  return (
+    <main>
+      <div>
+        <Text>Привет!</Text>
+      </div>
+    </main>
+  );
+}
